@@ -1,0 +1,30 @@
+{% extends "reporteria/base.html" %}
+{% load static %}
+
+{% block titulo %} Mi Dashboard {% endblock %}
+
+{% block styleStatic %}
+<link rel="stylesheet" href="../../static/css/styleDashboard.css">
+{% endblock %}
+
+{% block classBody %}
+{% endblock %}
+
+{% block classDiv %}
+
+{% endblock %}
+
+
+{% block contenido %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<div class="section">
+    <div class="card" style="width: 18rem; padding: 10px;">
+        <canvas id="myChart" width="400" height="400"></canvas>
+    </div>
+</div>
+<button class="button">Ver más detalles</button>
+<script src="../../static/js/jsDashBoard.js"></script>
+{% endblock %}
+
+{% block hideFooter%}
+{% endblock %}
