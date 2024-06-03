@@ -1,9 +1,9 @@
 from django.shortcuts import render,redirect
-from django.contrib.auth import authenticate,login,logout,get_user_model
-from django.contrib.auth.models import User
-from datetime import date
-from .models import Reporte,Area
+from django.http import JsonResponse
+from django.contrib.auth import authenticate,login,logout
+from .models import ReporteGeneral
 from . import metodos
+from django.utils import timezone
 
 # Create your views here.
 
@@ -16,20 +16,17 @@ def valLogin(request):
         else:
             usuario = request.POST["ususarioLog"]
             contrasena = request.POST["contrasenaLog"]
-            try:
-                remember = request.POST["remember"]
-                remember = True
-            except:
-                remember = False
             user=authenticate(username=usuario,password=contrasena)
             if (user):
                 print('Usuario de reporteria encontrado ',user)
-                print(remember)
                 login(request,user)
                 return redirect(to='home')
             else:
                 print('Usuario no pertenece a reporteria')
-                return render(request,urlBase+'login.html')
+                context={
+                    'e_login':usuario
+                }
+                return render(request,urlBase+'login.html',context)
     else:
         return redirect(to='home')
     
@@ -37,47 +34,64 @@ def logOutReport(request):
     logout(request)
     return redirect(to='home')
 
-def index(request):
-    if request.user.is_authenticated:
-        return render(request,urlBase+'index.html')
-    else:
-        return redirect(to="login")
-    
 def reporte(request):
     if request.user.is_authenticated:
+        reportes=[]
+        for reporteTMP in ReporteGeneral.objects.all():
+            reporte={
+                'id':reporteTMP.mes_anno_reporte,
+                'mes_anno_reporte':str(reporteTMP),
+                'porc_entrega_tiempo':round((reporteTMP.entrega_a_tiempo/reporteTMP.entrega_total)*100,2),
+                'porc_new_stock':round((reporteTMP.adquisicion_recibida/reporteTMP.stock_productos)*100,2),
+                'porc_venta_defin':round((reporteTMP.venta_realizada/reporteTMP.venta_pedido)*100,2),
+                'porc_factu_pagada':round((reporteTMP.factura_pagada/reporteTMP.factura_total)*100,2),
+            }
+            reportes.append(reporte)
         context={
-            'areas': Area.objects.all()
+            'reportes':reportes,
         }
         return render(request,urlBase+'reporte.html',context)
     else:
         return redirect(to="login")
+
+def eliminarRt(request,pk):
+    if request.user.is_superuser:
+        objReporte=ReporteGeneral.objects.get(mes_anno_reporte=pk)
+        objReporte.delete()
+        return redirect('home')
+    else:
+        return redirect('login')
     
+def modificarRt(request):
+    if request.method !="POST":
+        return redirect(to="home")
+    else:
+        return redirect(to="home")
+
 def dashboard(request):
     if request.user.is_authenticated:
-        return render(request,urlBase+'dashboard.html')
+        fechaActual=timezone.now().date()
+        annoActual=fechaActual.year
+        try:
+            reportes = ReporteGeneral.objects.filter(mes_anno_reporte__year__range=(annoActual-1, annoActual)).order_by('-mes_anno_reporte')
+            print("hola mundo xd")
+            context={
+                'reportes': reportes,
+            }
+            return render(request,urlBase+'dashboard.html',context)
+        except ReporteGeneral.DoesNotExist:
+            print("No se encontró ningún ReporteGeneral para el mes y año especificados.")
+            return render(request,urlBase+'dashboard.html')
     else:
         return redirect(to="login")
-    
+
 def newReport(request):
     if request.method !="POST":
-        metodos.agregarReporte()
-        return redirect(to="reporte")
+        return redirect(to="home")
     else:
-        if not request.POST["reporteRt"]:
-            metodos.agregarReporte()
-            return redirect(to="reporte")
-        else:
-            razon = request.POST["razonRt"]
-            reporte = request.POST["reporteRt"]
-            id_area = request.POST["id_areaRt"]
-            fecha_Emision = date.today()
-            m_fecha_datos = request.POST["fecha_DatosRt"]
+        return redirect(to="home")
 
-            objArea = Area.objects.get(id_area=id_area)
-            objReporte = Reporte.objects.create(razon=razon,
-                                                reporte=reporte,
-                                                id_area=objArea,
-                                                fecha_Emision=fecha_Emision,
-                                                margen_fecha_datos=m_fecha_datos)
-            objReporte.save()
-            return redirect(to="reporte")
+def excel_to_list(request,file_id):
+    reporte = ReporteGeneral.objects.get(id=file_id)
+    datos = metodos.excel_a_lista(reporte.reporte.path)
+    return JsonResponse(datos,safe=False)

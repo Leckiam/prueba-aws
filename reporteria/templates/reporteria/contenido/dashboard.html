@@ -4,7 +4,7 @@
 {% block titulo %} Mi Dashboard {% endblock %}
 
 {% block styleStatic %}
-<link rel="stylesheet" href="../../static/css/styleDashboard.css">
+<link rel="stylesheet" href="{% static 'css/styleDashboard.css'%}">
 {% endblock %}
 
 {% block classBody %}
@@ -17,13 +17,42 @@
 
 {% block contenido %}
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<div class="section">
-    <div class="card" style="width: 18rem; padding: 10px;">
-        <canvas id="myChart" width="400" height="400"></canvas>
+<div class="container row" style="margin: 30px auto;">
+    <h1 style="color: #EEEEEE;">Dashboard</h1>
+    {% if reportes %}
+    <div class="card cardChart" style="width: 18rem; padding: 10px; margin: 12px auto;">
+        <canvas id="myChart-0" width="400" height="400"></canvas>
+        <div class="card-body">
+            <h5 class="card-title">Entregas a tiempo</h5>
+            <p class="card-text">hola mundo</p>
+        </div>
     </div>
+    <div class="card cardChart" style="width: 18rem; padding: 10px; margin: 12px auto;">
+        <canvas id="myChart-1" width="400" height="400"></canvas>
+        <div class="card-body">
+            <h5 class="card-title">Nuevo Stock</h5>
+            <p class="card-text">hola mundo</p>
+        </div>
+    </div>
+    <div class="card cardChart" style="width: 18rem; padding: 10px; margin: 12px auto;">
+        <canvas id="myChart-2" width="400" height="400"></canvas>
+        <div class="card-body">
+            <h5 class="card-title">Ventas realizadas</h5>
+            <p class="card-text">hola mundo</p>
+        </div>
+    </div>
+    <div class="card cardChart" style="width: 18rem; padding: 10px; margin: 12px auto;">
+        <canvas id="myChart-3" width="400" height="400"></canvas>
+        <div class="card-body">
+            <h5 class="card-title">Entregas a tiempo</h5>
+            <p class="card-text">hola mundo</p>
+        </div>
+    </div>
+    <script src="{% static 'js/jsDashBoard.js'%}"></script>
+    {% else %}
+    <p style="color: #EEEEEE;">No hay reportes.</p>
+    {% endif %}
 </div>
-<button class="button">Ver más detalles</button>
-<script src="../../static/js/jsDashBoard.js"></script>
 {% endblock %}
 
 {% block hideFooter%}
