@@ -1,0 +1,96 @@
+{
+    "empresa": {
+        "products": [
+            {
+                "id": 1,
+                "name": "Laptop",
+                "description": "Laptop de 15 pulgadas con 16GB RAM y 512GB SSD",
+                "price": 1200.00,
+                "quantity_in_stock": 10,
+                "category": "Electronics",
+                "available": true
+            },
+            {
+                "id": 2,
+                "name": "Smartphone",
+                "description": "Smartphone con pantalla de 6 pulgadas y 128GB de almacenamiento",
+                "price": 700.00,
+                "quantity_in_stock": 50,
+                "category": "Electronics",
+                "available": true
+            },
+            {
+                "id": 3,
+                "name": "Mouse",
+                "description": "Mouse inalámbrico con batería recargable",
+                "price": 25.00,
+                "quantity_in_stock": 200,
+                "category": "Accessories",
+                "available": true
+            },
+            {
+                "id": 4,
+                "name": "Keyboard",
+                "description": "Teclado mecánico con iluminación RGB",
+                "price": 80.00,
+                "quantity_in_stock": 100,
+                "category": "Accessories",
+                "available": true
+            },
+            {
+                "id": 5,
+                "name": "Monitor",
+                "description": "Monitor de 24 pulgadas con resolución Full HD",
+                "price": 150.00,
+                "quantity_in_stock": 30,
+                "category": "Electronics",
+                "available": true
+            },
+            {
+                "id": 6,
+                "name": "External Hard Drive",
+                "description": "Disco duro externo de 1TB",
+                "price": 60.00,
+                "quantity_in_stock": 75,
+                "category": "Storage",
+                "available": true
+            },
+            {
+                "id": 7,
+                "name": "Webcam",
+                "description": "Webcam HD con micrófono integrado",
+                "price": 40.00,
+                "quantity_in_stock": 120,
+                "category": "Electronics",
+                "available": true
+            },
+            {
+                "id": 8,
+                "name": "Printer",
+                "description": "Impresora multifunción inalámbrica",
+                "price": 100.00,
+                "quantity_in_stock": 20,
+                "category": "Office",
+                "available": true
+            },
+            {
+                "id": 9,
+                "name": "Tablet",
+                "description": "Tablet de 10 pulgadas con 64GB de almacenamiento",
+                "price": 300.00,
+                "quantity_in_stock": 15,
+                "category": "Electronics",
+                "available": true
+            },
+            {
+                "id": 10,
+                "name": "Headphones",
+                "description": "Auriculares inalámbricos con cancelación de ruido",
+                "price": 150.00,
+                "quantity_in_stock": 60,
+                "category": "Accessories",
+                "available": true
+            }
+        ]
+    }
+}
