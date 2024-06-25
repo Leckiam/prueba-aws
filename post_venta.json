@@ -1,0 +1,112 @@
+[
+  {
+    "cliente": "Juan Pérez",
+    "venta_id": 1,
+    "producto": {
+      "nombre": "Camiseta de algodón",
+      "descripcion": "Camiseta cómoda de algodón para uso diario."
+    },
+    "descripcion_problema": "La camiseta tiene un agujero.",
+    "fecha_solicitud": "2024-06-26T09:00:00Z",
+    "estado": "pendiente"
+  },
+  {
+    "cliente": "Ana García",
+    "venta_id": 2,
+    "producto": {
+      "nombre": "Zapatos deportivos",
+      "descripcion": "Zapatos deportivos ligeros y transpirables."
+    },
+    "descripcion_problema": "La talla de los zapatos no es la correcta.",
+    "fecha_solicitud": "2024-06-25T15:30:00Z",
+    "estado": "en_proceso"
+  },
+  {
+    "cliente": "Luis Rodríguez",
+    "venta_id": 3,
+    "producto": {
+      "nombre": "Tablet Android",
+      "descripcion": "Tablet de última generación con pantalla HD."
+    },
+    "descripcion_problema": "La pantalla de la tablet está rota.",
+    "fecha_solicitud": "2024-06-24T11:45:00Z",
+    "estado": "resuelto"
+  },
+  {
+    "cliente": "María López",
+    "venta_id": 4,
+    "producto": {
+      "nombre": "Silla de oficina ergonómica",
+      "descripcion": "Silla de oficina ajustable con soporte lumbar."
+    },
+    "descripcion_problema": "El respaldo de la silla está suelto.",
+    "fecha_solicitud": "2024-06-23T10:15:00Z",
+    "estado": "pendiente"
+  },
+  {
+    "cliente": "Carlos Martínez",
+    "venta_id": 5,
+    "producto": {
+      "nombre": "Cámara digital profesional",
+      "descripcion": "Cámara digital con sensor de alta resolución."
+    },
+    "descripcion_problema": "La cámara no enciende.",
+    "fecha_solicitud": "2024-06-22T14:00:00Z",
+    "estado": "en_proceso"
+  },
+  {
+    "cliente": "Laura Fernández",
+    "venta_id": 6,
+    "producto": {
+      "nombre": "Teclado mecánico para gaming",
+      "descripcion": "Teclado resistente con retroiluminación LED RGB."
+    },
+    "descripcion_problema": "Varias teclas del teclado no funcionan.",
+    "fecha_solicitud": "2024-06-21T08:30:00Z",
+    "estado": "resuelto"
+  },
+  {
+    "cliente": "José Ramírez",
+    "venta_id": 7,
+    "producto": {
+      "nombre": "Impresora multifuncional",
+      "descripcion": "Impresora láser multifuncional para oficina."
+    },
+    "descripcion_problema": "La impresora no reconoce el papel.",
+    "fecha_solicitud": "2024-06-20T16:45:00Z",
+    "estado": "pendiente"
+  },
+  {
+    "cliente": "Elena Sánchez",
+    "venta_id": 8,
+    "producto": {
+      "nombre": "Monitor curvo de 27 pulgadas",
+      "descripcion": "Monitor curvo con resolución QHD y frecuencia de actualización de 144Hz."
+    },
+    "descripcion_problema": "El monitor presenta píxeles muertos.",
+    "fecha_solicitud": "2024-06-19T11:00:00Z",
+    "estado": "en_proceso"
+  },
+  {
+    "cliente": "Pablo Gómez",
+    "venta_id": 9,
+    "producto": {
+      "nombre": "Batería externa portátil",
+      "descripcion": "Batería externa de alta capacidad para dispositivos móviles."
+    },
+    "descripcion_problema": "La batería no carga completamente.",
+    "fecha_solicitud": "2024-06-18T09:30:00Z",
+    "estado": "resuelto"
+  },
+  {
+    "cliente": "Silvia Torres",
+    "venta_id": 10,
+    "producto": {
+      "nombre": "Silla de oficina ergonómica",
+      "descripcion": "Silla de oficina ajustable con soporte lumbar."
+    },
+    "descripcion_problema": "Las ruedas de la silla están atascadas.",
+    "fecha_solicitud": "2024-06-17T14:15:00Z",
+    "estado": "pendiente"
+  }
+]
