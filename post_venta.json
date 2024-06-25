@@ -7,7 +7,7 @@
       "descripcion": "Camiseta cómoda de algodón para uso diario."
     },
     "descripcion_problema": "La camiseta tiene un agujero.",
-    "fecha_solicitud": "2024-06-26T09:00:00Z",
+    "fecha_solicitud": "2024-06-26",
     "estado": "pendiente"
   },
   {
@@ -18,7 +18,7 @@
       "descripcion": "Zapatos deportivos ligeros y transpirables."
     },
     "descripcion_problema": "La talla de los zapatos no es la correcta.",
-    "fecha_solicitud": "2024-06-25T15:30:00Z",
+    "fecha_solicitud": "2024-06-25",
     "estado": "en_proceso"
   },
   {
@@ -29,7 +29,7 @@
       "descripcion": "Tablet de última generación con pantalla HD."
     },
     "descripcion_problema": "La pantalla de la tablet está rota.",
-    "fecha_solicitud": "2024-06-24T11:45:00Z",
+    "fecha_solicitud": "2024-06-24",
     "estado": "resuelto"
   },
   {
@@ -40,7 +40,7 @@
       "descripcion": "Silla de oficina ajustable con soporte lumbar."
     },
     "descripcion_problema": "El respaldo de la silla está suelto.",
-    "fecha_solicitud": "2024-06-23T10:15:00Z",
+    "fecha_solicitud": "2024-06-23",
     "estado": "pendiente"
   },
   {
@@ -51,7 +51,7 @@
       "descripcion": "Cámara digital con sensor de alta resolución."
     },
     "descripcion_problema": "La cámara no enciende.",
-    "fecha_solicitud": "2024-06-22T14:00:00Z",
+    "fecha_solicitud": "2024-06-22",
     "estado": "en_proceso"
   },
   {
@@ -62,7 +62,7 @@
       "descripcion": "Teclado resistente con retroiluminación LED RGB."
     },
     "descripcion_problema": "Varias teclas del teclado no funcionan.",
-    "fecha_solicitud": "2024-06-21T08:30:00Z",
+    "fecha_solicitud": "2024-06-21",
     "estado": "resuelto"
   },
   {
@@ -73,7 +73,7 @@
       "descripcion": "Impresora láser multifuncional para oficina."
     },
     "descripcion_problema": "La impresora no reconoce el papel.",
-    "fecha_solicitud": "2024-06-20T16:45:00Z",
+    "fecha_solicitud": "2024-06-20",
     "estado": "pendiente"
   },
   {
@@ -84,7 +84,7 @@
       "descripcion": "Monitor curvo con resolución QHD y frecuencia de actualización de 144Hz."
     },
     "descripcion_problema": "El monitor presenta píxeles muertos.",
-    "fecha_solicitud": "2024-06-19T11:00:00Z",
+    "fecha_solicitud": "2024-06-19",
     "estado": "en_proceso"
   },
   {
@@ -95,7 +95,7 @@
       "descripcion": "Batería externa de alta capacidad para dispositivos móviles."
     },
     "descripcion_problema": "La batería no carga completamente.",
-    "fecha_solicitud": "2024-06-18T09:30:00Z",
+    "fecha_solicitud": "2024-06-18",
     "estado": "resuelto"
   },
   {
@@ -106,7 +106,7 @@
       "descripcion": "Silla de oficina ajustable con soporte lumbar."
     },
     "descripcion_problema": "Las ruedas de la silla están atascadas.",
-    "fecha_solicitud": "2024-06-17T14:15:00Z",
+    "fecha_solicitud": "2024-06-17",
     "estado": "pendiente"
   }
 ]
