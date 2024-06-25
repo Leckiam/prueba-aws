@@ -1,0 +1,92 @@
+[
+    {
+        "ID_de_factura": "550e8400-e29b-41d4-a716-446655440000",
+        "Numero_de_factura": 1,
+        "fecha_de_emicion": "2024-06-15",
+        "cliente": "Cliente A",
+        "Items_de_factura": "Item1, Item2, Item3",
+        "Total": 1000,
+        "Estado_de_la_factua": 1
+    },
+    {
+        "ID_de_factura": "660e8500-f39c-52e5-b827-556766551111",
+        "Numero_de_factura": 2,
+        "fecha_de_emicion": "2023-05-10",
+        "cliente": "Cliente B",
+        "Items_de_factura": "Item4, Item5",
+        "Total": 1500,
+        "Estado_de_la_factua": 2
+    },
+    {
+        "ID_de_factura": "770e8600-g40d-63f6-c938-667877662222",
+        "Numero_de_factura": 3,
+        "fecha_de_emicion": "2024-06-25",
+        "cliente": "Cliente C",
+        "Items_de_factura": "Item6",
+        "Total": 500,
+        "Estado_de_la_factua": 1
+    },
+    {
+        "ID_de_factura": "880e8700-h51e-74g7-d049-778988773333",
+        "Numero_de_factura": 4,
+        "fecha_de_emicion": "2022-04-20",
+        "cliente": "Cliente D",
+        "Items_de_factura": "Item7, Item8",
+        "Total": 750,
+        "Estado_de_la_factua": 3
+    },
+    {
+        "ID_de_factura": "990e8800-i62f-85h8-e150-889099884444",
+        "Numero_de_factura": 5,
+        "fecha_de_emicion": "2024-06-05",
+        "cliente": "Cliente E",
+        "Items_de_factura": "Item9, Item10",
+        "Total": 2000,
+        "Estado_de_la_factua": 1
+    },
+    {
+        "ID_de_factura": "a10e8900-j73g-96i9-f251-9901aa995555",
+        "Numero_de_factura": 6,
+        "fecha_de_emicion": "2024-07-15",
+        "cliente": "Cliente F",
+        "Items_de_factura": "Item11, Item12, Item13",
+        "Total": 1800,
+        "Estado_de_la_factua": 2
+    },
+    {
+        "ID_de_factura": "b21e9000-k84h-07j0-g362-0bb2bb1a6666",
+        "Numero_de_factura": 7,
+        "fecha_de_emicion": "2023-08-10",
+        "cliente": "Cliente G",
+        "Items_de_factura": "Item14, Item15",
+        "Total": 900,
+        "Estado_de_la_factua": 3
+    },
+    {
+        "ID_de_factura": "c32e9100-l95i-18k1-h473-1cc3cc2b7777",
+        "Numero_de_factura": 8,
+        "fecha_de_emicion": "2024-06-20",
+        "cliente": "Cliente H",
+        "Items_de_factura": "Item16",
+        "Total": 1200,
+        "Estado_de_la_factua": 1
+    },
+    {
+        "ID_de_factura": "d43e9200-m06j-29l2-i584-2dd4dd3c8888",
+        "Numero_de_factura": 9,
+        "fecha_de_emicion": "2024-05-25",
+        "cliente": "Cliente I",
+        "Items_de_factura": "Item17, Item18, Item19",
+        "Total": 3000,
+        "Estado_de_la_factua": 2
+    },
+    {
+        "ID_de_factura": "e54e9300-n17k-30m3-j695-3ee5ee4d9999",
+        "Numero_de_factura": 10,
+        "fecha_de_emicion": "2024-06-30",
+        "cliente": "Cliente J",
+        "Items_de_factura": "Item20",
+        "Total": 5000,
+        "Estado_de_la_factua": 3
+    }
+]

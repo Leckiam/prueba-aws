@@ -1,0 +1,92 @@
+[
+    {
+        "fecha_despacho": "2024-06-15",
+        "patente_camion": "ABC123",
+        "intento": 1,
+        "entregado": true,
+        "id_compra": 101,
+        "direccion_compra": "Calle Falsa 123",
+        "valor_compra": 1000
+    },
+    {
+        "fecha_despacho": "2024-06-16",
+        "patente_camion": "DEF456",
+        "intento": 2,
+        "entregado": false,
+        "id_compra": 102,
+        "direccion_compra": "Avenida Siempreviva 742",
+        "valor_compra": 1500
+    },
+    {
+        "fecha_despacho": "2024-06-17",
+        "patente_camion": "GHI789",
+        "intento": 1,
+        "entregado": true,
+        "id_compra": 103,
+        "direccion_compra": "Calle Luna 45",
+        "valor_compra": 2000
+    },
+    {
+        "fecha_despacho": "2024-06-18",
+        "patente_camion": "JKL012",
+        "intento": 3,
+        "entregado": true,
+        "id_compra": 104,
+        "direccion_compra": "Calle Sol 67",
+        "valor_compra": 2500
+    },
+    {
+        "fecha_despacho": "2024-06-19",
+        "patente_camion": "MNO345",
+        "intento": 1,
+        "entregado": false,
+        "id_compra": 105,
+        "direccion_compra": "Calle Estrella 89",
+        "valor_compra": 3000
+    },
+    {
+        "fecha_despacho": "2024-06-20",
+        "patente_camion": "PQR678",
+        "intento": 2,
+        "entregado": true,
+        "id_compra": 106,
+        "direccion_compra": "Calle Cometa 101",
+        "valor_compra": 3500
+    },
+    {
+        "fecha_despacho": "2024-06-21",
+        "patente_camion": "STU901",
+        "intento": 1,
+        "entregado": false,
+        "id_compra": 107,
+        "direccion_compra": "Calle Meteoro 123",
+        "valor_compra": 4000
+    },
+    {
+        "fecha_despacho": "2024-06-22",
+        "patente_camion": "VWX234",
+        "intento": 3,
+        "entregado": true,
+        "id_compra": 108,
+        "direccion_compra": "Calle Planeta 456",
+        "valor_compra": 4500
+    },
+    {
+        "fecha_despacho": "2024-06-23",
+        "patente_camion": "YZA567",
+        "intento": 1,
+        "entregado": true,
+        "id_compra": 109,
+        "direccion_compra": "Calle Asteroide 789",
+        "valor_compra": 5000
+    },
+    {
+        "fecha_despacho": "2024-06-24",
+        "patente_camion": "BCD890",
+        "intento": 2,
+        "entregado": false,
+        "id_compra": 110,
+        "direccion_compra": "Calle Satélite 012",
+        "valor_compra": 5500
+    }
+]
