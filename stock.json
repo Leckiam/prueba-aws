@@ -1,0 +1,92 @@
+[
+    {
+        "nombre": "Camiseta de algodón",
+        "descripcion": "Camiseta cómoda de algodón para uso diario.",
+        "precio": 19.99,
+        "cantidad": 50,
+        "imagen": "path/a/la/imagen.jpg",
+        "fecha_creacion": "2024-06-25T12:00:00Z",
+        "fecha_actualizacion": "2024-06-25T12:00:00Z"
+    },
+    {
+        "nombre": "Zapatos deportivos",
+        "descripcion": "Zapatos deportivos ligeros y transpirables.",
+        "precio": 49.99,
+        "cantidad": 20,
+        "imagen": "path/a/la/imagen.jpg",
+        "fecha_creacion": "2024-06-24T10:30:00Z",
+        "fecha_actualizacion": "2024-06-24T10:30:00Z"
+    },
+    {
+        "nombre": "Tablet Android",
+        "descripcion": "Tablet de última generación con pantalla HD.",
+        "precio": 299.99,
+        "cantidad": 10,
+        "imagen": "path/a/la/imagen.jpg",
+        "fecha_creacion": "2024-06-22T15:45:00Z",
+        "fecha_actualizacion": "2024-06-22T15:45:00Z"
+    },
+    {
+        "nombre": "Silla de oficina ergonómica",
+        "descripcion": "Silla de oficina ajustable con soporte lumbar.",
+        "precio": 129.99,
+        "cantidad": 15,
+        "imagen": "path/a/la/imagen.jpg",
+        "fecha_creacion": "2024-06-20T09:00:00Z",
+        "fecha_actualizacion": "2024-06-20T09:00:00Z"
+    },
+    {
+        "nombre": "Cámara digital profesional",
+        "descripcion": "Cámara digital con sensor de alta resolución.",
+        "precio": 899.99,
+        "cantidad": 5,
+        "imagen": "path/a/la/imagen.jpg",
+        "fecha_creacion": "2024-06-18T14:20:00Z",
+        "fecha_actualizacion": "2024-06-18T14:20:00Z"
+    },
+    {
+        "nombre": "Teclado mecánico para gaming",
+        "descripcion": "Teclado resistente con retroiluminación LED RGB.",
+        "precio": 79.99,
+        "cantidad": 30,
+        "imagen": "path/a/la/imagen.jpg",
+        "fecha_creacion": "2024-06-15T11:10:00Z",
+        "fecha_actualizacion": "2024-06-15T11:10:00Z"
+    },
+    {
+        "nombre": "Auriculares inalámbricos",
+        "descripcion": "Auriculares inalámbricos con cancelación de ruido.",
+        "precio": 149.99,
+        "cantidad": 25,
+        "imagen": "path/a/la/imagen.jpg",
+        "fecha_creacion": "2024-06-10T13:30:00Z",
+        "fecha_actualizacion": "2024-06-10T13:30:00Z"
+    },
+    {
+        "nombre": "Impresora multifuncional",
+        "descripcion": "Impresora láser multifuncional para oficina.",
+        "precio": 349.99,
+        "cantidad": 8,
+        "imagen": "path/a/la/imagen.jpg",
+        "fecha_creacion": "2024-06-05T08:45:00Z",
+        "fecha_actualizacion": "2024-06-05T08:45:00Z"
+    },
+    {
+        "nombre": "Monitor curvo de 27 pulgadas",
+        "descripcion": "Monitor curvo con resolución QHD y frecuencia de actualización de 144Hz.",
+        "precio": 499.99,
+        "cantidad": 12,
+        "imagen": "path/a/la/imagen.jpg",
+        "fecha_creacion": "2024-06-02T16:15:00Z",
+        "fecha_actualizacion": "2024-06-02T16:15:00Z"
+    },
+    {
+        "nombre": "Batería externa portátil",
+        "descripcion": "Batería externa de alta capacidad para dispositivos móviles.",
+        "precio": 39.99,
+        "cantidad": 40,
+        "imagen": "path/a/la/imagen.jpg",
+        "fecha_creacion": "2024-05-30T10:00:00Z",
+        "fecha_actualizacion": "2024-05-30T10:00:00Z"
+    }
+]
