@@ -5,8 +5,8 @@
         "precio": 19.99,
         "cantidad": 50,
         "imagen": "path/a/la/imagen.jpg",
-        "fecha_creacion": "2024-06-25T12:00:00Z",
-        "fecha_actualizacion": "2024-06-25T12:00:00Z"
+        "fecha_creacion": "2024-06-25",
+        "fecha_actualizacion": "2024-06-25"
     },
     {
         "nombre": "Zapatos deportivos",
@@ -14,8 +14,8 @@
         "precio": 49.99,
         "cantidad": 20,
         "imagen": "path/a/la/imagen.jpg",
-        "fecha_creacion": "2024-06-24T10:30:00Z",
-        "fecha_actualizacion": "2024-06-24T10:30:00Z"
+        "fecha_creacion": "2024-06-24",
+        "fecha_actualizacion": "2024-06-24"
     },
     {
         "nombre": "Tablet Android",
@@ -23,8 +23,8 @@
         "precio": 299.99,
         "cantidad": 10,
         "imagen": "path/a/la/imagen.jpg",
-        "fecha_creacion": "2024-06-22T15:45:00Z",
-        "fecha_actualizacion": "2024-06-22T15:45:00Z"
+        "fecha_creacion": "2024-06-22",
+        "fecha_actualizacion": "2024-06-22"
     },
     {
         "nombre": "Silla de oficina ergonómica",
@@ -32,8 +32,8 @@
         "precio": 129.99,
         "cantidad": 15,
         "imagen": "path/a/la/imagen.jpg",
-        "fecha_creacion": "2024-06-20T09:00:00Z",
-        "fecha_actualizacion": "2024-06-20T09:00:00Z"
+        "fecha_creacion": "2024-06-20",
+        "fecha_actualizacion": "2024-06-20"
     },
     {
         "nombre": "Cámara digital profesional",
@@ -41,8 +41,8 @@
         "precio": 899.99,
         "cantidad": 5,
         "imagen": "path/a/la/imagen.jpg",
-        "fecha_creacion": "2024-06-18T14:20:00Z",
-        "fecha_actualizacion": "2024-06-18T14:20:00Z"
+        "fecha_creacion": "2024-06-18",
+        "fecha_actualizacion": "2024-06-18"
     },
     {
         "nombre": "Teclado mecánico para gaming",
@@ -50,8 +50,8 @@
         "precio": 79.99,
         "cantidad": 30,
         "imagen": "path/a/la/imagen.jpg",
-        "fecha_creacion": "2024-06-15T11:10:00Z",
-        "fecha_actualizacion": "2024-06-15T11:10:00Z"
+        "fecha_creacion": "2024-06-15",
+        "fecha_actualizacion": "2024-06-15"
     },
     {
         "nombre": "Auriculares inalámbricos",
@@ -59,8 +59,8 @@
         "precio": 149.99,
         "cantidad": 25,
         "imagen": "path/a/la/imagen.jpg",
-        "fecha_creacion": "2024-06-10T13:30:00Z",
-        "fecha_actualizacion": "2024-06-10T13:30:00Z"
+        "fecha_creacion": "2024-06-10",
+        "fecha_actualizacion": "2024-06-10"
     },
     {
         "nombre": "Impresora multifuncional",
@@ -68,8 +68,8 @@
         "precio": 349.99,
         "cantidad": 8,
         "imagen": "path/a/la/imagen.jpg",
-        "fecha_creacion": "2024-06-05T08:45:00Z",
-        "fecha_actualizacion": "2024-06-05T08:45:00Z"
+        "fecha_creacion": "2024-06-05",
+        "fecha_actualizacion": "2024-06-05"
     },
     {
         "nombre": "Monitor curvo de 27 pulgadas",
@@ -77,8 +77,8 @@
         "precio": 499.99,
         "cantidad": 12,
         "imagen": "path/a/la/imagen.jpg",
-        "fecha_creacion": "2024-06-02T16:15:00Z",
-        "fecha_actualizacion": "2024-06-02T16:15:00Z"
+        "fecha_creacion": "2024-06-02",
+        "fecha_actualizacion": "2024-06-02"
     },
     {
         "nombre": "Batería externa portátil",
@@ -86,7 +86,7 @@
         "precio": 39.99,
         "cantidad": 40,
         "imagen": "path/a/la/imagen.jpg",
-        "fecha_creacion": "2024-05-30T10:00:00Z",
-        "fecha_actualizacion": "2024-05-30T10:00:00Z"
+        "fecha_creacion": "2024-05-30",
+        "fecha_actualizacion": "2024-05-30"
     }
 ]
