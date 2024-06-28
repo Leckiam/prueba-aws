@@ -9,7 +9,7 @@
       },
       "cantidad": 100,
       "precio_unitario": 25.50,
-      "fecha_orden": "2024-06-27",
+      "fecha_adquisicion": "2024-06-27",
       "estado": "enviada"
     },
     {
@@ -22,7 +22,7 @@
       },
       "cantidad": 50,
       "precio_unitario": 35.75,
-      "fecha_orden": "2024-06-26",
+      "fecha_adquisicion": "2024-06-26",
       "estado": "recibida"
     },
     {
@@ -35,7 +35,7 @@
       },
       "cantidad": 200,
       "precio_unitario": 15.25,
-      "fecha_orden": "2024-06-25",
+      "fecha_adquisicion": "2024-06-25",
       "estado": "pendiente"
     },
     {
@@ -48,7 +48,7 @@
       },
       "cantidad": 75,
       "precio_unitario": 42.00,
-      "fecha_orden": "2024-06-24",
+      "fecha_adquisicion": "2024-06-24",
       "estado": "enviada"
     },
     {
@@ -61,7 +61,7 @@
       },
       "cantidad": 150,
       "precio_unitario": 18.50,
-      "fecha_orden": "2024-06-23",
+      "fecha_adquisicion": "2024-06-23",
       "estado": "recibida"
     },
     {
@@ -74,7 +74,7 @@
       },
       "cantidad": 100,
       "precio_unitario": 30.00,
-      "fecha_orden": "2024-06-22",
+      "fecha_adquisicion": "2024-06-22",
       "estado": "pendiente"
     },
     {
@@ -87,7 +87,7 @@
       },
       "cantidad": 80,
       "precio_unitario": 22.75,
-      "fecha_orden": "2024-06-21",
+      "fecha_adquisicion": "2024-06-21",
       "estado": "enviada"
     },
     {
@@ -100,7 +100,7 @@
       },
       "cantidad": 120,
       "precio_unitario": 27.50,
-      "fecha_orden": "2024-06-20",
+      "fecha_adquisicion": "2024-06-20",
       "estado": "recibida"
     },
     {
@@ -113,7 +113,7 @@
       },
       "cantidad": 60,
       "precio_unitario": 38.50,
-      "fecha_orden": "2024-06-19",
+      "fecha_adquisicion": "2024-06-19",
       "estado": "pendiente"
     },
     {
@@ -126,7 +126,7 @@
       },
       "cantidad": 90,
       "precio_unitario": 20.75,
-      "fecha_orden": "2024-06-18",
+      "fecha_adquisicion": "2024-06-18",
       "estado": "enviada"
     }
   ]
