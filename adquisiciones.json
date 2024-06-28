@@ -7,7 +7,7 @@
         "telefono": "123-456-7890",
         "email": "proveedorA@example.com"
       },
-      "cantidad": 100,
+      "cantidad_total": 100,
       "precio_unitario": 25.50,
       "fecha_adquisicion": "2024-06-27",
       "estado": "enviada"
@@ -20,7 +20,7 @@
         "telefono": "987-654-3210",
         "email": "proveedorB@example.com"
       },
-      "cantidad": 50,
+      "cantidad_total": 50,
       "precio_unitario": 35.75,
       "fecha_adquisicion": "2024-06-26",
       "estado": "recibida"
@@ -33,7 +33,7 @@
         "telefono": "111-222-3333",
         "email": "proveedorC@example.com"
       },
-      "cantidad": 200,
+      "cantidad_total": 200,
       "precio_unitario": 15.25,
       "fecha_adquisicion": "2024-06-25",
       "estado": "pendiente"
@@ -46,7 +46,7 @@
         "telefono": "444-555-6666",
         "email": "proveedorD@example.com"
       },
-      "cantidad": 75,
+      "cantidad_total": 75,
       "precio_unitario": 42.00,
       "fecha_adquisicion": "2024-06-24",
       "estado": "enviada"
@@ -59,7 +59,7 @@
         "telefono": "777-888-9999",
         "email": "proveedorE@example.com"
       },
-      "cantidad": 150,
+      "cantidad_total": 150,
       "precio_unitario": 18.50,
       "fecha_adquisicion": "2024-06-23",
       "estado": "recibida"
@@ -72,7 +72,7 @@
         "telefono": "222-333-4444",
         "email": "proveedorF@example.com"
       },
-      "cantidad": 100,
+      "cantidad_total": 100,
       "precio_unitario": 30.00,
       "fecha_adquisicion": "2024-06-22",
       "estado": "pendiente"
@@ -85,7 +85,7 @@
         "telefono": "555-666-7777",
         "email": "proveedorG@example.com"
       },
-      "cantidad": 80,
+      "cantidad_total": 80,
       "precio_unitario": 22.75,
       "fecha_adquisicion": "2024-06-21",
       "estado": "enviada"
@@ -98,7 +98,7 @@
         "telefono": "888-999-0000",
         "email": "proveedorH@example.com"
       },
-      "cantidad": 120,
+      "cantidad_total": 120,
       "precio_unitario": 27.50,
       "fecha_adquisicion": "2024-06-20",
       "estado": "recibida"
@@ -111,7 +111,7 @@
         "telefono": "111-222-3333",
         "email": "proveedorI@example.com"
       },
-      "cantidad": 60,
+      "cantidad_total": 60,
       "precio_unitario": 38.50,
       "fecha_adquisicion": "2024-06-19",
       "estado": "pendiente"
@@ -124,7 +124,7 @@
         "telefono": "444-555-6666",
         "email": "proveedorJ@example.com"
       },
-      "cantidad": 90,
+      "cantidad_total": 90,
       "precio_unitario": 20.75,
       "fecha_adquisicion": "2024-06-18",
       "estado": "enviada"
