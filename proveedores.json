@@ -1,0 +1,137 @@
+[
+    {
+        "id_producto": 1,
+        "nombre_producto": "Notebook ASUS",
+        "descripcion_producto": "Notebook ASUS ExpertBook B5 Flip, Intel Core i7-1255U, 13.3 táctil , Ram 16GB, SSD 1TB, W11Pro",
+        "imagen_producto": "https://media.spdigital.cl/thumbnails/products/d4cwycdz_79aed06e_thumbnail_512.jpg",
+        "stock_producto": 5,
+        "precio_producto": 1420970,
+        "categoria_id_categoria": 1
+    },
+    {
+        "id_producto": 2,
+        "nombre_producto": "Tarjeta de Video Gigabyte Nvidia®",
+        "descripcion_producto": "GeForce® RTX™ 4070 SUPER GAMING OC, 12GB GDDR6X, 192 bit",
+        "imagen_producto": "https://media.spdigital.cl/thumbnails/products/hp7i8p0i_106fcf66_thumbnail_512.png",
+        "stock_producto": 8,
+        "precio_producto": 856895,
+        "categoria_id_categoria": 11
+    },
+    {
+        "id_producto": 3,
+        "nombre_producto": "Placa Madre",
+        "descripcion_producto": "Placa Madre Gigabyte X670E Aorus Master, AMD AM5, 4xDDR5 DIMM, USB-C, DP, HDMI, Wi-Fi 6E, E-ATX",
+        "imagen_producto": "https://media.spdigital.cl/thumbnails/products/mfm_vyt4_5779f246_thumbnail_512.webp",
+        "stock_producto": 10,
+        "precio_producto": 607112,
+        "categoria_id_categoria": 9
+    },
+    {
+        "id_producto": 4,
+        "nombre_producto": "Gabinete Gamer",
+        "descripcion_producto": "Gabinete Gamer ASUS TUF GAMING GT501, 3 Ventiadores, Aura Sync RGB, ATX/E-ATX",
+        "imagen_producto": "https://media.spdigital.cl/thumbnails/products/yol4g7nf_424bab00_thumbnail_512.webp",
+        "stock_producto": 5,
+        "precio_producto": 219445,
+        "categoria_id_categoria": 14
+    },
+    {
+        "id_producto": 6,
+        "nombre_producto": "Notebook ASUS2",
+        "descripcion_producto": "Notebook ASUS ExpertBook B5 Flip, Intel Core i7-1255U, 13.3 táctil , Ram 16GB, SSD 1TB, W11Pro",
+        "imagen_producto": "https://media.spdigital.cl/thumbnails/products/d4cwycdz_79aed06e_thumbnail_512.jpg",
+        "stock_producto": 5,
+        "precio_producto": 1420970,
+        "categoria_id_categoria": 1
+    },
+    {
+        "id_producto": 11,
+        "nombre_producto": "asus test",
+        "descripcion_producto": "prueba test1",
+        "imagen_producto": "https://firebasestorage.googleapis.com/v0/b/react-firebase-img-67806.appspot.com/o/077b5186-f418-4688-9f6f-a5d856a7aa49?alt=media&token=e603a000-d6d1-4840-beb9-b3ae2d7f7af3",
+        "stock_producto": 1,
+        "precio_producto": 1,
+        "categoria_id_categoria": 1
+    },
+    {
+        "id_producto": 12,
+        "nombre_producto": "asus test",
+        "descripcion_producto": "wfdsfsdfsdfs",
+        "imagen_producto": "https://firebasestorage.googleapis.com/v0/b/react-firebase-img-67806.appspot.com/o/f8f44adf-f6fe-4724-9d7b-fff18fd94d6b?alt=media&token=988b6659-6146-41aa-9f7b-b77324295f6d",
+        "stock_producto": 1,
+        "precio_producto": 1,
+        "categoria_id_categoria": 1
+    },
+    {
+        "id_producto": 13,
+        "nombre_producto": "asus test",
+        "descripcion_producto": "sdasdasdasdasd",
+        "imagen_producto": "https://firebasestorage.googleapis.com/v0/b/react-firebase-img-67806.appspot.com/o/05cbf52f-85cc-499f-8845-f68fcd287367?alt=media&token=91393f12-61ff-4b59-a9be-826c41bb2cea",
+        "stock_producto": 1,
+        "precio_producto": 1,
+        "categoria_id_categoria": 1
+    },
+    {
+        "id_producto": 14,
+        "nombre_producto": "asus test",
+        "descripcion_producto": "asdadasdasdasd",
+        "imagen_producto": "https://firebasestorage.googleapis.com/v0/b/react-firebase-img-67806.appspot.com/o/11efb563-d448-4b14-888b-620165aa2fba?alt=media&token=3c6f296e-fe43-4232-ae83-7b774eebc593",
+        "stock_producto": 6,
+        "precio_producto": 6,
+        "categoria_id_categoria": 1
+    },
+    {
+        "id_producto": 15,
+        "nombre_producto": "asus test",
+        "descripcion_producto": "adsasdasdasda",
+        "imagen_producto": "https://firebasestorage.googleapis.com/v0/b/react-firebase-img-67806.appspot.com/o/productos%2F6209ddbb-7048-4220-8627-b8594d57c465?alt=media&token=9161bc5f-afb9-48c5-b391-ef18f20481c3",
+        "stock_producto": 1,
+        "precio_producto": 1,
+        "categoria_id_categoria": 1
+    },
+    {
+        "id_producto": 16,
+        "nombre_producto": "sadsa",
+        "descripcion_producto": "dsadsadsadsadadsa",
+        "imagen_producto": "https://firebasestorage.googleapis.com/v0/b/react-firebase-img-67806.appspot.com/o/productos%2Fd1027e4b-3362-4203-a588-0e7d03fe1524?alt=media&token=dc85e7e6-59a9-4495-b188-cac37c1b54a0",
+        "stock_producto": 5,
+        "precio_producto": 1235567,
+        "categoria_id_categoria": 6
+    },
+    {
+        "id_producto": 17,
+        "nombre_producto": "sony",
+        "descripcion_producto": "Notebook ASUS ExpertBook B5 Flip, Intel Core i7-1255U, 13.3 táctil , Ram 16GB, SSD 1TB, W11Pro",
+        "imagen_producto": "https://media.spdigital.cl/thumbnails/products/d4cwycdz_79aed06e_thumbnail_512.jpg",
+        "stock_producto": 5,
+        "precio_producto": 1420970,
+        "categoria_id_categoria": 1
+    },
+    {
+        "id_producto": 18,
+        "nombre_producto": "sony",
+        "descripcion_producto": "Notebook ASUS ExpertBook B5 Flip, Intel Core i7-1255U, 13.3 táctil , Ram 16GB, SSD 1TB, W11Pro",
+        "imagen_producto": "https://media.spdigital.cl/thumbnails/products/d4cwycdz_79aed06e_thumbnail_512.jpg",
+        "stock_producto": 5,
+        "precio_producto": 10000000,
+        "categoria_id_categoria": 1
+    },
+    {
+        "id_producto": 19,
+        "nombre_producto": "sony",
+        "descripcion_producto": "Notebook ASUS ExpertBook B5 Flip, Intel Core i7-1255U, 13.3 táctil , Ram 16GB, SSD 1TB, W11Pro",
+        "imagen_producto": "https://media.spdigital.cl/thumbnails/products/d4cwycdz_79aed06e_thumbnail_512.jpg",
+        "stock_producto": 5,
+        "precio_producto": 1000000,
+        "categoria_id_categoria": 1
+    },
+    {
+        "id_producto": 20,
+        "nombre_producto": "sony",
+        "descripcion_producto": "Notebook ASUS ExpertBook B5 Flip, Intel Core i7-1255U, 13.3 táctil , Ram 16GB, SSD 1TB, W11Pro",
+        "imagen_producto": "https://media.spdigital.cl/thumbnails/products/d4cwycdz_79aed06e_thumbnail_512.jpg",
+        "stock_producto": 5,
+        "precio_producto": 1000000,
+        "categoria_id_categoria": 1
+    }
+]
