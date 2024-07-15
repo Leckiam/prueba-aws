@@ -1,0 +1,10 @@
+
+{
+    "id_producto": 1,
+    "nombre_producto": "Notebook ASUS",
+    "descripcion_producto": "Notebook ASUS ExpertBook B5 Flip, Intel Core i7-1255U, 13.3 táctil , Ram 16GB, SSD 1TB, W11Pro",
+    "imagen_producto": "https://media.spdigital.cl/thumbnails/products/d4cwycdz_79aed06e_thumbnail_512.jpg",
+    "stock_producto": 5,
+    "precio_producto": 1420970,
+    "categoria_id_categoria": 1
+}
