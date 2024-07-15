@@ -1,0 +1,27 @@
+
+[
+    {
+        "Numero_boleta": "3",
+        "Fecha_emision": "2024-06-10",
+        "Cliente": "Alvaro",
+        "Items_boleta": "Mouse Logitech G502 HERO",
+        "Total": "45000.00",
+        "Estado": "pagado"
+    },
+    {
+        "Numero_boleta": "2",
+        "Fecha_emision": "2024-06-10",
+        "Cliente": "Alverto",
+        "Items_boleta": "Placa Madre MSI AM4",
+        "Total": "30000.00",
+        "Estado": "pagado"
+    },
+    {
+        "Numero_boleta": "1",
+        "Fecha_emision": "2024-07-01",
+        "Cliente": "Mauricio Vizcardo",
+        "Items_boleta": "RTX 3050 TI MSI",
+        "Total": "300000.00",
+        "Estado": "Pagado"
+    }
+]
